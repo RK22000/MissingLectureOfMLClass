@@ -1,2 +1,7 @@
 # environmnet
 env/
+.venv
+*.csv
+*.keras
+**/.ipynb_checkpoints
+logdir

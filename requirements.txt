@@ -1,0 +1,9 @@
+tensorflow
+tensorflow-datasets
+ipywidgets
+pandas
+seaborn
+ipywebrtc
+scikit-learn
+ipympl
+voila
