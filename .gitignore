@@ -5,3 +5,5 @@ env/
 *.keras
 **/.ipynb_checkpoints
 logdir
+*.bz2
+model_dir
