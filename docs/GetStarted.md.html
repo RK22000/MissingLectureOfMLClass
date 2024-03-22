@@ -26,6 +26,40 @@ You'll need to have met the following prerequisites to complete the workshop in 
 Environment Setup
 =============================
 
+![XKCD Python environments](https://imgs.xkcd.com/comics/python_environment_2x.png)
+
+Why bother with this?
+
+* Don't want to mess up your computer
+* Want to be able to use lots of cool packages and libraries
+
+Venv and Conda (and Mamba)
+------------------------
+
+    Venv    |   [Conda](https://docs.conda.io/en/latest/) ([Mamba](https://mamba.readthedocs.io/en/latest/))
+------------|------------------------
+Manages python dependencies | Manages all kinds of dependencies
+Installs packages from [pypi.org](https://pypi.org/project/pip/) | Installs packages from many different channels [Conda Forge](https://conda-forge.org/packages/), [Anaconda](https://anaconda.org/anaconda/repo)
+Kinda faster than conda | Kinda slower than Pip, Mamba a C implementation uses paralyzation to speed things up
+
+Create a Venv environments
+------------------------
+
+```sh
+python -m venv <path-to-virtual-env>
+venv\Scripts\activate.bat # for windows
+source venv\bin\activate
+```
+
+Create a Conda environments
+------------------------
+
+```sh
+conda env create -p <path-to-virtual-env>
+# or
+conda env create -n <name-of-virtual-env>
+```
+
 
 Deploying and sharing your projects
 =============================
