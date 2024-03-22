@@ -1,0 +1,19 @@
+# name: D:\Projects\MissingLectureOfMLClass\.env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ipywidgets
+  - pandas
+  - seaborn
+  - ipywebrtc
+  - scikit-learn
+  - ipympl
+  - voila
+  - ipykernel
+  - ffmpeg
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow-datasets
+# prefix: D:\Projects\MissingLectureOfMLClass\.env
